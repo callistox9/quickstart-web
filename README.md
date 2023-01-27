@@ -2,7 +2,6 @@
     
 ## Requirements
 
-- Banuba [client token](#obtaining-banuba-client-token)
 - [Nodejs](https://nodejs.org/en/) installed
 - Browser with support of [WebGL 2.0](https://caniuse.com/#feat=webgl2)
 
@@ -12,24 +11,12 @@ The example uses CDN version of the [@banuba/webar](https://www.npmjs.com/packag
 Please use the npm package mentioned above for real world projects.
 Check out the [Integration tutorials](https://docs.banuba.com/face-ar-sdk-v1/web/web_tutorials_integrations) for more ways of consuming [@banuba/webar](https://www.npmjs.com/package/@banuba/webar) package.
 
-### Obtaining Banuba Client token
-
-Banuba Client token is required to get Banuba SDK Web AR working.
-
-To receive a new **trial** client token please fill in the [form on banuba.com](https://www.banuba.com/face-filters-sdk) website, or contact us via [info@banuba.com](mailto:info@banuba.com).
-
 ## Environment setup and local run
 
 Clone the repository
 
 ```sh
 git clone git@github.com:Banuba/quickstart-web.git
-```
-
-Insert Banuba [client token](#obtaining-banuba-client-token) into `BanubaClientToken.js`
-
-```js
-window.BANUBA_CLIENT_TOKEN = "PUT YOUR CLIENT TOKEN HERE"
 ```
 
 Run the live server in the cloned folder
